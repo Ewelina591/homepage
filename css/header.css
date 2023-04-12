@@ -1,0 +1,36 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+
+}
+
+
+
+.header__h1 {
+    background-color: rgb(154, 104, 11);
+    color: black;
+    margin-bottom: 50px;
+}
+
+
+.header__h1--toAlign {
+    text-align: center;
+    outline-style: auto;
+    outline-color: white;
+
+}
+
+.header__button {
+    color: black;
+    background-color: rgb(154, 104, 11);
+}
+
+.header__button2 {
+    color: black;
+    background-color: rgb(154, 104, 11);
+}

@@ -1,0 +1,32 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+
+}
+
+.body {
+    background-color: rgb(96, 58, 23);
+    font-family: 'Merriweather', serif;
+    line-height: 1.5;
+    margin: auto 10%;
+}
+
+
+.body__upToMenu {
+    margin-left: 45%;
+}
+
+.body__alternativeBackground {
+    background-color: rgb(47, 27, 9);
+}
+
+.body__upToMenu--button {
+    background-color: black;
+    text-decoration: none;
+    padding: 5px 10px;
+}

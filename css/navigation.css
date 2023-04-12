@@ -1,0 +1,39 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+
+}
+
+.nav__listItem {
+    list-style: none;
+    text-align: center;
+}
+
+.nav__link {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+
+}
+
+.nav__link:focus {
+    outline: 2px solid blue;
+}
+
+.nav__link:hover {
+    color: rgb(184, 146, 77);
+    border-bottom: 1px solid;
+    outline: none;
+}
+
+.nav__link:active {
+    color: rgb(128, 3, 3);
+}
+
+.nav__topMargin {
+    margin-top: 40px;
+}
